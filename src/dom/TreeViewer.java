@@ -64,6 +64,7 @@ class DOMTreeFrame extends JFrame
     */
    public void openFile()
    {
+	  
       JFileChooser chooser = new JFileChooser();
       chooser.setCurrentDirectory(new File("dom"));
       chooser.setFileFilter(new javax.swing.filechooser.FileNameExtensionFilter("XML files", "xml"));
